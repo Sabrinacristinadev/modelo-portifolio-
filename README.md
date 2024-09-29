@@ -1,4 +1,4 @@
-# Portfólio de Sabrina Oliveira
+# Portfólio de Sabrina Cristina (apenas um modelo)
 
 Este é o meu portfólio pessoal de desenvolvedora web, apresentando meus projetos e habilidades em tecnologias front-end. O site foi desenvolvido com um design moderno e efeitos animados usando **Particles.js**.
 
