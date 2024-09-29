@@ -1,0 +1,170 @@
+/* Adicionando estilo para Particles.js */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Definindo estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos do header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #ff69b4;
+}
+
+/* Estilos da seção principal (hero) */
+.hero {
+    height: 100vh;
+    background: #1c1c1c url('constelation-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #ff69b4;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.hero .btn:hover {
+    background-color: #ff85c0;
+}
+
+/* Estilos da seção Sobre Mim */
+.sobre {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.sobre h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff69b4;
+}
+
+.sobre p {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Estilos da seção Projetos */
+.projetos {
+    padding: 60px 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.projetos h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff69b4;
+}
+
+/* Estilos da seção Contato */
+.contato {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 2.5rem;
+    color: #ff69b4;
+}
+
+.contato p {
+    font-size: 1.2rem;
+}
+
+.contato .btn {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.contato .btn:hover {
+    background-color: #ff85c0;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
